@@ -1,0 +1,21 @@
+{
+  "name": "Kryptoholic",
+  "short_name": "Kryptoholic",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0c1016",
+  "theme_color": "#1e232b",
+  "description": "Unified crypto trading across exchanges with smart signals and risk controls.",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

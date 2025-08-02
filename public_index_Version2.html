@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#1e232b" />
+  <link rel="icon" href="/icons/icon-192x192.png" />
+  <title>Kryptoholic</title>
+</head>
+<body>
+  <div id="root">
+    <!-- Your app will render here -->
+    <h1>Kryptoholic PWA is Ready!</h1>
+    <p>All main PWA features are now enabled.</p>
+  </div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
